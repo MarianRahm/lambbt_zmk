@@ -4,3 +4,5 @@ config SHIELD_LAMBBT_LEFT
 config SHIELD_LAMBBT_RIGHT
 	def_bool $(shields_list_contains,lambbt_right)
 
+config SHIELD_LAMBBT_DONGLE
+	def_bool $(shields_list_contains,lambbt_dongle)
