@@ -27,7 +27,7 @@ compatible = "zmk,combos";
 ╰────────╮30 31│ │32 33╭────────╯
          ╰─────╯ ╰─────╯         */
 
-COMBO(esc, &kp TAB, 10 20)
+// COMBO(tab, &kp TAB, 10 20)
 COMBO_LONG(capsword, &caps_word, 14 15)
 COMBO(ae, &kp RA(A), 0 10)
 COMBO(oe, &kp RA(O), 9 19)
