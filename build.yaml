@@ -24,9 +24,9 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: splits_settings_reset
-  - board: seeeduino_xiao_ble
-    shield: lambbt_dongle dongle_screen
-    artifact-name: dongle_screen
-  - board: seeeduino_xiao_ble
+  - board: halcyon_dongle
+    shield: lambbt_dongle
+    artifact-name: lambbt_central
+  - board: halcyon_dongle
     shield: settings_reset
     artifact-name: dongle_settings_reset

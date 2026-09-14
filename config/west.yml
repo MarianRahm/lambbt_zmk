@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: splitkb
+      url-base: https://github.com/splitkb
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: v0.3
       import: app/west.yml
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+    - name: zmk-halcyon-module
+      remote: splitkb
+      revision: v0.3
   self:
     path: config
