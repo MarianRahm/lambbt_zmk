@@ -64,7 +64,7 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │
-          &hl LALT A &hl LCTRL R &hl LGUI S &hl LSHFT T &kp G        &kp M      &hr RSHFT N &hr RGUI E &hr RCTRL I &hr LALT O
+          &hl LGUI A &hl LALT R &hl LCTRL S &hl LSHFT T &kp G        &kp M      &hr RSHFT N &hr RCTRL E &hr LALT I &hr RGUI O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  X       │  C       │  D       │  V       │  Z       │   │  K       │  H       │ , <      │ . >      │  / ?     │
             &kp X      &kp C      &kp D      &kp V      &kp Z          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
