@@ -2,12 +2,14 @@ manifest:
   remotes:
     # - name: zmkfirmware
     #   url-base: https://github.com/zmkfirmware
+    - name: marianrahm
+      url-base: https://github.com/MarianRahm
     - name: splitkb
       url-base: https://github.com/splitkb
   projects:
     - name: zmk
-      remote: splitkb
-      revision: main+halcyon-fixes
+      remote: marianrahm
+      revision: hid-battery+halcyon-fixes
       import: app/west.yml
     - name: zmk-halcyon-module
       remote: splitkb

@@ -13,6 +13,10 @@
 #
 ---
 include:
+  - board: halcyon_dongle//zmk
+    shield: lambbt_dongle
+    artifact-name: lambbt_central
+    
   - board: nice_nano@2.0.0//zmk
     shield: lambbt_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
@@ -21,12 +25,10 @@ include:
     shield: lambbt_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: lambbt_right
+
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
     artifact-name: splits_settings_reset
-  - board: halcyon_dongle//zmk
-    shield: lambbt_dongle
-    artifact-name: lambbt_central
   - board: halcyon_dongle//zmk
     shield: settings_reset
     artifact-name: dongle_settings_reset

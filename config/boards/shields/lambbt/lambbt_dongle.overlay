@@ -1,10 +1,26 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/battery_reporting.h>
 
 / {
 	chosen {
 		zmk,kscan = &mock_kscan;
 		zmk,physical-layout = &physical_layout0;
+        zmk,battery-reporting = &battery_reporting;
 	};
+
+    battery_reporting: battery_reporting {
+        compatible = "zmk,battery-reporting";
+
+        dongle {
+            hidden;
+        };
+        left {
+            display-name = "Left";
+        };
+        right {
+            display-name = "Right";
+        };
+    };
 
 	default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";

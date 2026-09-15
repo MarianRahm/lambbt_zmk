@@ -1,7 +1,7 @@
 if SHIELD_LAMBBT_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "LambBT"
+    default "LambBT Halcyon"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -17,6 +17,9 @@ config BT_MAX_CONN
 
 config BT_MAX_PAIRED
     default  7
+
+config ZMK_BATTERY_REPORTING_SPLIT_REPORT_LOWEST_CHARGE
+    default n
 
 endif
 
@@ -34,5 +37,11 @@ if SHIELD_LAMBBT_LEFT || SHIELD_LAMBBT_RIGHT
 
 config ZMK_SPLIT
     default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_BATTERY_REPORTING_SPLIT_REPORT_LOWEST_CHARGE
+    default n
 
 endif
